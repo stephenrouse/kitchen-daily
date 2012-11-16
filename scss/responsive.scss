@@ -1,0 +1,94 @@
+/* Overrides for main responsive rules or to add rules for proprietary site elements */
+
+
+/*
+  Full Width
+*/
+@media only screen and (min-width: 992px) {
+
+  
+}
+
+/*
+  Tablet Layout: 768px.
+*/
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+  .main-nav li {
+    float:right;
+  }
+  .main-nav li.active a b, .main-nav li a:hover b  {
+    display: none;
+  }
+  .main-nav li a {
+    padding-top:0;
+  }
+  .main-nav li.home-link {
+    float:left;
+    margin-left:0;
+    padding-left:0;
+  }
+
+}
+
+
+
+/*
+  Mobile Layout: 320px.
+*/
+
+@media only screen and (max-width: 767px) {
+  
+  .main-nav {
+    min-height:75px;
+  }
+  .main-nav ul {
+    padding-top:42px;
+    position:relative;
+  }
+  .main-nav li { text-align:left; }
+  .main-nav li.active a b, .main-nav li a:hover b  {
+    display: none;
+  }
+  .main-nav li a {
+    clear:both;
+    padding-top:0;
+  }
+  .main-nav li.subnav-toggle {
+    height:34px;width:34px;padding:0;
+    position:absolute;top:22px;right:0;
+  }
+  .main-nav li.subnav-toggle a {
+    color:transparent;
+    height:34px;
+    overflow:hidden;
+    width:34px;
+  }
+  .main-nav li.home-link {
+    padding:0;
+    position:absolute;
+    left:0;
+    top:0;
+  }
+  .main-nav li.home-link a {
+    background: url("http://o.aolcdn.com/os/kitchen-daily/kitchen-daily-logo-240.png") no-repeat 0 0 transparent;
+    height:39px;
+    margin:0;
+    width:240px;
+  }
+  .published {
+    left:0;
+  }
+  .aol-share {
+    margin-top:30px;
+  }
+}
+
+#aol-comments .comments-meta .sort-comments {position:relative; margin-top:10px;}
+/*
+  Wide Mobile Layout: 480px.
+*/
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+}
